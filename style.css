@@ -1,0 +1,133 @@
+.body
+{
+    background-color: white;
+    width: 1400px;
+    height: 1500px;
+}
+
+
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+img{
+    width: 140px;
+    height: 50px;
+}
+
+.login
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.contain
+{
+    
+    background-image: url('img/backgroud.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 1000px;
+    display: flex;
+    margin: 0px 8%
+    
+}
+.header
+{
+    background-color: rgb(255, 255, 255,0.5);
+}
+
+.disply
+{
+    margin: 0 23%;
+}
+
+#list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+.list_opetion
+{
+    gap: 30px;
+    display: flex;
+}
+
+
+
+
+.btn {
+    background-color:palevioletred; /* Primary color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 16px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove underline for links */
+    display: inline-block; /* Allow margin and padding to affect the element */
+}
+
+#editMisson
+{
+    display: none;
+}
+
+
+
+.model
+{
+    display: none;
+    background-color: rgba(252, 252, 252, 0.5);
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.modal-task
+{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.closebtn {
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px; 
+    font-size: 8px; 
+    cursor: pointer; 
+    border-radius: 50%; 
+    transition: background-color 0.3s; /* Smooth background color transition */
+  }
+  
+  .closebtn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  .closebtn:focus {
+    outline: none; /* Remove outline on focus */
+  }

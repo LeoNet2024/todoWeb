@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <ul>
+            <li><img src="img/logo.png"></li>
+            <div class="login">
+            <li><input type="button" value="about" class="btn" style="background-color: rgb(118, 118, 118);"></li>
+            <li><input type="button" value="log in" class="btn" style="background-color: rgb(118, 118, 118);"></li>
+            <li><input type="button" value=" start for free" class="btn"></li>
+             </div>
+
+        </ul>
+    </header>
+
+    
+
+    <main>
+        <div class="contain">
+            <div class="header">
+                <div class="list_opetion">
+                    <ul id="list">
+                        <li><input type="button" onclick="addTask()" value="Add task" class="btn" style="background-color: rgb(118, 118, 118);" ></li><br>
+                        <li><input type="button" value="search" class="btn" style="background-color: rgb(118, 118, 118);"></li><br>
+                        <li><input type="button" value="my project" class="btn" style="background-color: rgb(118, 118, 118);"></li><br>
+                    </ul>
+                </div>
+
+            </div>
+
+           
+
+            <div class="disply header" >
+                <p>disply</p>
+                <ul id="displyList"></ul>
+            </div>
+        </div>
+
+
+        <div class="model" id="mymodel" onclick="closeModel(event)" >
+            <div class="modal-task">
+                <button class="closebtn" value="X" id="closebtnmodel" onclick="closeModel(event)">&times;</button><br><br>
+            <form action="" method="get" >
+                <label for="nameaActivity">mission</label>
+                <input type="text" id="taskName"><br><br>
+                <label for="start">start Date</label>
+                <input type="date" id="startDate" name="start"><br><br>
+                <label for="date">end Date</label>
+                <input type="date" id="endDate"><br><br>
+                <input type="button" value="add mission" id="addMisson" onclick="addTasks()">
+                <input type="button"  value="edit mission" id="editMisson">
+            </form>
+        </div>
+        </div>
+    </main>
+    
+
+<script src="index.js"></script>
+</body>
+</html>
