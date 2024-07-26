@@ -27,9 +27,8 @@
             <div class="header">
                 <div class="list_opetion">
                     <ul id="list">
-                        <li><input type="button" onclick="addTask()" value="Add task" class="btn" style="background-color: rgb(118, 118, 118);" ></li><br>
-                        <li><input type="button" value="search" class="btn" style="background-color: rgb(118, 118, 118);"></li><br>
-                        <li><input type="button" value="my project" class="btn" style="background-color: rgb(118, 118, 118);"></li><br>
+                        <li><input type="button" onclick="addTaskopenModel()" value="Add task" class="btn" style="background-color: rgb(118, 118, 118);" ></li><br>
+                        <li><input type="button" value="my projects" onclick="showMyProjects()" class="btn" style="background-color: rgb(118, 118, 118);"></li><br>
                     </ul>
                 </div>
 
@@ -37,9 +36,16 @@
 
            
 
-            <div class="disply header" >
+            <div class="displyHeader" >
                 <p>disply</p>
                 <ul id="displyList"></ul>
+            </div>
+
+            <div class="myprojects" style="display: none;">
+                <p>hi</p>
+                <ul id="doneProject">
+                    <li></li>
+                </ul>
             </div>
         </div>
 

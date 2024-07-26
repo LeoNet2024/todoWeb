@@ -131,3 +131,12 @@ img{
   .closebtn:focus {
     outline: none; /* Remove outline on focus */
   }
+
+  .taskfont
+  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style-type: none;
+
+  }
+
+  
